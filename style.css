@@ -1,0 +1,38 @@
+html{
+    background: linear-gradient(90deg, #2f47a3,#000000);
+}
+
+
+.container{
+    display: flex;
+    width: 30%;
+    margin: 0 auto;
+    border: 1px solid;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /*formato del texto*/
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container > *{
+    display: block;
+    width: 100%;
+    position: relative;
+    min-height: 3em;
+    justify-content: space-between;
+}
+
+.signo{
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    border: 1px solid;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-align: center;
+    
+	justify-content: center;
+	align-items: center;
+}
